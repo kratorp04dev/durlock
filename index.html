@@ -180,14 +180,14 @@
         <div class="footer-bg">
             <h2>Reserva una cita</h2>
             
-            <form name="contac" netlify>
+            <form name="contact" method="POST" netlify>
                 <div class="campo-1">
-                    <input type="text" placeholder="nombre">
-                    <input type="number" placeholder="telefono">
+                    <input type="text" placeholder="nombre"  name="name">
+                    <input type="number" placeholder="telefono" name="number">
                 </div>
                 <div class="campo-1">
                     <input type="text" class="campo" placeholder="direccion">
-                    <input type="text" class="campo" placeholder="correo">
+                    <input type="email" name="email" class="campo" placeholder="correo">
                 </div>
                 <textarea class="campo" cols="10" rows="10" placeholder="text"></textarea>
                 <input type="submit" value="enviar" class="btn-1">
@@ -198,6 +198,9 @@
             <p>desarrollado por @kratorpdev.</p>
         </div>
     </footer>
+
+
+
 
 </body>
 </html> 
