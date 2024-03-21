@@ -180,14 +180,14 @@
         <div class="footer-bg" id="contact">
             <h2>Reserva una cita</h2>
             
-            <form name="contact" netlify>
+            <form name="contac" method="post" data-netlify="true">
                 <!--<div class="campo-1">
                     <input type="text" placeholder="nombre">
                     <input type="number" placeholder="telefono">
                 </div>-->
                 <div class="campo-1">
-                    <input type="text" class="campo" placeholder="direccion">
-                    <input type="text" class="campo" placeholder="correo">
+                    <input type="text" class="campo" placeholder="Nombre" required> 
+                    <input type="email" class="campo" placeholder="correo" required>
                 </div>
                 <textarea class="campo" cols="10" rows="10" placeholder="text" required></textarea>
                 <input type="submit" value="enviar" class="btn-1"  >
